@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+:root {
+  --rodape-height: 4vh;
+  --parts-height: calc(50vh - (var(--rodape-height) / 2));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  padding: 1.5em;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.paint, .floor {
+  width: 100vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.paint, .floor {
+  height: var(--parts-height);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.baseboard {
+  height: var(--rodape-height);
+  width: 100vw;
+}
+
+.baseboard-top {
+  height: calc(var(--rodape-height) / 3);
+  box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.4);
+  width: 100vw;
+}
+
+.baseboard-bottom {
+  height: calc((var(--rodape-height) / 3) * 2);
+  width: 100vw;
+}
+
+.floor {
+  background-repeat: repeat-x;
 }
