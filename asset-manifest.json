@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/paint-picker/static/css/main.9eb8e736.css",
+    "main.js": "/paint-picker/static/js/main.a726ed98.js",
+    "static/js/787.e8ec06dd.chunk.js": "/paint-picker/static/js/787.e8ec06dd.chunk.js",
+    "index.html": "/paint-picker/index.html",
+    "main.9eb8e736.css.map": "/paint-picker/static/css/main.9eb8e736.css.map",
+    "main.a726ed98.js.map": "/paint-picker/static/js/main.a726ed98.js.map",
+    "787.e8ec06dd.chunk.js.map": "/paint-picker/static/js/787.e8ec06dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eb8e736.css",
+    "static/js/main.a726ed98.js"
+  ]
+}
